@@ -3,7 +3,12 @@
     "start": "tsc && node dist/index.js"
   },
   "dependencies": {
+    "@microsoft/signalr": "^6.0.0",
+    "@types/body-parser": "^1.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "mongodb": "^4.2.1",
+    "node-signalr": "^2.0.6",
     "typescript": "^4.5.2"
   },
   "devDependencies": {
